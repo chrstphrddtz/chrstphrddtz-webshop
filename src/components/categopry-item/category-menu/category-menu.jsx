@@ -1,9 +1,7 @@
 import CategoryItem from "../category-item";
 import "./category-menu.scss";
 
-import categories from "../../../resources/categories.json";
-
-export default function CategoryMenu() {
+export default function CategoryMenu({ categories }) {
   return (
     <div className="categories-container">
       {categories.map((category) => (
