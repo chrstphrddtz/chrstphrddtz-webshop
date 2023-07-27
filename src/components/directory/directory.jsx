@@ -1,7 +1,7 @@
-import CategoryItem from "../categopry-item/category-item";
-import "./category-menu.scss";
+import CategoryItem from "../category-item/category-item";
+import "./directory.scss";
 
-export default function CategoryMenu({ categories }) {
+export default function Directory({ categories }) {
   return (
     <div className="categories-container">
       {categories.map((category) => (
