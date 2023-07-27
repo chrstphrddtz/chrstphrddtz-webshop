@@ -1,4 +1,4 @@
-import CategoryItem from "../category-item";
+import CategoryItem from "../categopry-item/category-item";
 import "./category-menu.scss";
 
 export default function CategoryMenu({ categories }) {

@@ -1,4 +1,4 @@
-import CategoryMenu from "./components/categopry-item/category-menu/category-menu";
+import CategoryMenu from "./components/category-menu/category-menu";
 import categories from "./resources/categories.json"
 
 export default function App() {
