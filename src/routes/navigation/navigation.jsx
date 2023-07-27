@@ -16,6 +16,9 @@ export default function Navigation() {
           <Link className="nav-link" to="/shop">
             shop
           </Link>
+          <Link className="nav-link" to="/contact">
+            contact
+          </Link>
         </div>
       </nav>
       <Outlet />
