@@ -19,7 +19,7 @@ export default function Navigation() {
           <Link className="nav-link" to="/contact">
             contact
           </Link>
-          <Link className="nav-link" to="/sign-in">
+          <Link className="nav-link" to="/auth">
             sign in
           </Link>
         </div>
