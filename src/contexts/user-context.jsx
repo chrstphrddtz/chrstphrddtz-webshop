@@ -5,8 +5,8 @@ import {
 } from "../utils/firebase/firebase.utils";
 
 export const UserContext = createContext({
-  setCurrentUser: () => null,
   currentUser: null,
+  setCurrentUser: () => null,
 });
 
 export function UserProvider({ children }) {
